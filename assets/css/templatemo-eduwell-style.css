@@ -1,3 +1,4 @@
+
 /*
 
 TemplateMo 573 EduWell
@@ -153,8 +154,8 @@ body {
 .main-button-gradient a {
   font-size: 13px;
   color: #fff;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: #f42d2d;
+  background: linear-gradient(-145deg, #f42d2d, #fff )!important;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -164,8 +165,8 @@ body {
 }
 
 .main-button-gradient a:hover {
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: #f42d2d;
+  background: linear-gradient(-145deg, #f42d2d, #fff )!important;
   opacity: 0.9;
 }
 
@@ -232,7 +233,7 @@ section {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #f42d2d;
 }
 
 .section-heading p {
@@ -246,8 +247,8 @@ header
 --------------------------------------------- 
 */
 .background-header {
-  background: rgb(219,138,222) !important;
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important;
+  background: #f42d2d !important;
+  background: linear-gradient(-145deg, #f42d2d, #fff )!important;
   height: 80px!important;
   position: fixed!important;
   top: 0!important;
@@ -405,7 +406,7 @@ header
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #dc8cdb!important;
+  color: #f42d2d!important;
   padding-left: 25px;
 }
 
@@ -545,7 +546,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #dc8cdb;
+  color: #f42d2d;
 }
 
 @media (max-width: 1200px) {
@@ -564,7 +565,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #dc8cdb!important;
+    color: #f42d2d!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -622,7 +623,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #dc8cdb!important;
+    color: #f42d2d!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -732,7 +733,7 @@ section.main-banner {
 
 .main-banner .header-text h2 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #f42d2d;
 }
 
 .main-banner .main-button-gradient {
@@ -788,7 +789,7 @@ services
 }
 
 .services .owl-dots .active {
-  background-color: #dc8cdb;
+  background-color: #f42d2d;
 }
 
 
@@ -844,12 +845,14 @@ section.our-courses .naccs .menu div {
   vertical-align: middle;
   font-weight: 900;
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-  border: 3px solid rgba(219,138,222,0.5);
+  /*Cambiar a RGBA*/
+  border: 3px solid #f42d2d;
 }
 
 section.our-courses .naccs .menu div.active {
-  color: #dc8cdb;
-  border: 3px solid rgba(219,138,222,1);
+  color: #f42d2d;
+    /*Cambiar a RGBA*/
+  border: 3px solid #f42d2d;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
 }
 
@@ -890,8 +893,8 @@ section.our-courses ul.nacc li .left-image img {
 
 section.our-courses ul.nacc li .left-image .price h6 {
   position: absolute;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: #f42d2d;
+  background: linear-gradient(-145deg, #f42d2d, #fff )!important;
   color: #fff;
   top: 20px;
   left: 20px;
@@ -1057,7 +1060,7 @@ section.testimonials:after {
 .testimonials .item span {
   font-size: 13px;
   font-weight: 700;
-  color: #dc8cdb;
+  color: #f42d2d;
 }
 
 .testimonials .item img {
@@ -1082,7 +1085,7 @@ section.testimonials:after {
 }
 
 .testimonials .owl-dots .active {
-  background-color: #dc8cdb;
+  background-color: #f42d2d;
 }
 
 
@@ -1132,8 +1135,8 @@ section.contact-us .contact-info .icon i {
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: #f42d2d;
+  background: linear-gradient(-145deg, #f42d2d, #fff )!important;
   color: #fff;
 }
 
@@ -1145,7 +1148,7 @@ section.contact-us .contact-info h4 {
 
 section.contact-us .contact-info span {
   font-size: 15px;
-  color: #dc8cdb;
+  color: #f42d2d;
   font-weight: 700;
 }
 
@@ -1200,8 +1203,8 @@ section.contact-us #contact button {
   float: right;
   font-size: 13px;
   color: #fff;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: #f42d2d;
+  background: linear-gradient(-145deg, #f42d2d, #fff )!important;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1557,8 +1560,8 @@ section.our-office #video .thumb .play-button a {
   transform: translate(-40px, -40px);
   color: #fff;
   font-size: 22px;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: #f42d2d;
+  background: linear-gradient(-145deg, #f42d2d, #fff )!important;
 }
 
 section.our-office #video img {
@@ -1754,8 +1757,8 @@ body {
     font-size: 62px;
   }
   .header-area {
-    background: rgb(219,138,222) !important;
-    background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important;
+    background: #f42d2d ;
+    background: linear-gradient(-145deg, #f42d2d, #fff )!important;
   }
   .services .owl-nav .owl-next{
     right: -70px;
@@ -1897,7 +1900,7 @@ body {
     margin: 0px 5px;
   }
   section.our-team .naccs .menu div.active img {
-    border: 3px solid #dc8cdb;
+    border: 3px solid #f42d2d;
   }
   section.our-team .naccs .menu div h4,
   section.our-team .naccs .menu div span {
